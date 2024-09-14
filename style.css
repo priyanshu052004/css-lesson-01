@@ -16,39 +16,19 @@
             font-style: normal;
           }
           
-        
-        
-        
-        /* tag selector */
-        /* body{
-
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-
-        } */
-
         nav{
 
             background-color: black;
-      
             color: white;
             padding: 8px;
             display: flex;
             justify-content: space-around;
-  
             padding-left: 30px;
             padding-right: 30px;
             padding-top: 5px;
-            padding-bottom: 5px;
-
-        
-        
-           
+            padding-bottom: 5px;     
         }
 
-
-       
         main{
             /* jitna screen ka height hai uski height vh height */
             
@@ -59,14 +39,12 @@
             align-items: center;
             min-height: 100vh;
             background-color: rgb(152, 231, 255);
-
         }
 
 
         .nav_link{
             color: white;
         }
-
 
         button{
             
@@ -77,11 +55,7 @@
             font-size: 24px;
             border: 0px;
             line-height: 1.5;
-            margin-left: 1rem;
-            
-            
-
-            
+            margin-left: 1rem; 
         }
 
         /* class selector */
@@ -89,19 +63,10 @@
             background-color: #191A1B;
             border: 1px  white solid;
             padding: 6px 22px 6px 22px;
-          
-      
-            
-            
-
-
         }
+
         .btn2{
-          
-            background-color:#4c5fd5;
-            
-            
-            
+            background-color:#4c5fd5;   
         }
 
          /* psudo code */
@@ -114,20 +79,14 @@
             background-color:aquamarine;
         }
 
-
-
         /* id selector */
-        #request_btn{
-
-            
+        #request_btn{  
         }
-        .flec.bt{
+
+        .flex.bt{
 
             display: flex;
             gap:6px;
-     
-           
-        
         }
 
         .hero{
@@ -140,16 +99,15 @@
             width:100%;
             padding-top:4rem ;
             padding-bottom: 4rem;
-            
-
         }
+
         .hero>h1{
             font-size: 80px;
             /* how bold is it  */
             font-weight: 400; 
             line-height: 1.5;
-
         }
+
         .hero>input{
 
             height: 4rem;
@@ -158,41 +116,32 @@
             font-size: 20px;
             border: 1px black solid;
             padding :0.5rem;
-
        }
-
-
 
        .info{
         padding: 2rem;
-        margin: 6rem;       }
-
-
-
-
+        margin: 6rem;    
+       }
 
         .grid_container{
             display: grid;
             grid-template-columns: 1fr 1fr;
             padding-inline: 8rem;
-            gap: 2rem;
-           
-          
+            gap: 2rem;      
         }
 
 
         .grid_item{
             
             display: flex;
-            gap: 1rem;
-            
+            gap: 1rem;     
        }
+
        .grid_item>p{
         font-size: 24px;
         line-height: 1.5;
        }
        
-
        .flex-item{
         padding-left: 15px;
         display: flex;
